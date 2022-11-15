@@ -21,4 +21,36 @@ public class TestJavaProgram extends BaseTest {
 		System.out.print("Closed...");
 	}
 
+	@Test
+	public void addition() {
+		int a=10;
+		int b=20;
+		int c=a+b;
+		System.out.println("Addition= "+c);
+	}
+	
+	@Test
+	public void substraction() {
+		int a=10;
+		int b=20;
+		int c=a-b;
+		System.out.println("Substraction= "+c);
+	}
+	
+	@Test
+	public void multiplication() {
+		int a=10;
+		int b=20;
+		float c=a*b;
+		System.out.println("Multiplication= "+c);
+	}
+	
+	@Test
+	public void division() {
+		int a=10;
+		int b=20;
+		float c=a/b;
+		System.out.println("division= "+c);
+	}
 }
+
