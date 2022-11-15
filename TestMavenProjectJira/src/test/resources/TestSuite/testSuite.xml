@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Automation">
+	
+	<test name=" TEST SUITE">
+		<classes>
+			<class name="com.java.Test.TestJavaProgram" />			
+		</classes>
+	</test>
+</suite>
