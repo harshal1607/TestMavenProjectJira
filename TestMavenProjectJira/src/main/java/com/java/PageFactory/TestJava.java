@@ -1,5 +1,7 @@
 package com.java.PageFactory;
 
+import org.openqa.selenium.By;
+
 import com.generic.BaseTest;
 import com.generic.Pojo;
 
@@ -17,6 +19,12 @@ public class TestJava {
 			//("https://www.facebook.com/reg/");
 			Pojo.getDriver().get("https://www.facebook.com/reg/");
 			System.out.println("Facebook is opened.");
+		}
+		
+		public void verifyFirstNameField() {
+			Pojo.getDriver().findElement(By.xpath("//input[@aria-label='First nam']")).isDisplayed();
+			//Pojo.getDriver().findElement(By.xpath("//input[@aria-label='First name']")).isDisplayed();
+
 		}
 	
 }

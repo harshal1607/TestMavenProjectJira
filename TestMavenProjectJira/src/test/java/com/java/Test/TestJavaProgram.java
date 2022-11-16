@@ -17,6 +17,7 @@ public class TestJavaProgram extends BaseTest {
 	public void testJava()
 	{
 		objTestJava.openURLforFB();
+		objTestJava.verifyFirstNameField();
 		System.out.println("Test");
 		System.out.print("Closed...");
 	}
@@ -48,8 +49,12 @@ public class TestJavaProgram extends BaseTest {
 	@Test
 	public void division() {
 		int a=10;
-		int b=20;
-		float c=a/b;
+		int b=3;
+		int c=a/b;
+		if(c==0) {
+			
+		}
+		
 		System.out.println("division= "+c);
 	}
 }
